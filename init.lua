@@ -71,6 +71,7 @@ end
 -- - "ctrl" - Control key
 -- - "alt" - Option key
 -- - "cmd" - Command key
+-- - "shift" - Shift key
 --
 --
 -- YOUR KEYBOARD SHORTCUTS GOES HERE
@@ -87,7 +88,7 @@ hs.hotkey.bind({"alt"}, "RETURN", function ()
   activateOrLaunch("com.apple.MobileSMS")
 end)
 
--- Switch to Apple Main by pressing Command+F2
+-- Switch to Apple Mail by pressing Command+F2
 hs.hotkey.bind({"cmd"}, "F2", function ()
   activateOrLaunch("com.apple.mail")
 end)
